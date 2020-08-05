@@ -15,3 +15,5 @@ from lossT import sparse_categorical_crossentropy
 def loss(labels, logits):
     return sparse_categorical_crossentropy(labels, logits, from_logits=True)
 ```
+
+Portions of this page are modifications based on work created and [shared by Google](https://developers.google.com/terms/site-policies) and used according to terms described in the [Creative Commons 4.0 Attribution License](https://creativecommons.org/licenses/by/4.0/).
